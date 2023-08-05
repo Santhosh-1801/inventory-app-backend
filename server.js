@@ -15,7 +15,7 @@ const app=express()
 const cors = require('cors');
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://inventory-app.vercel.app"],
+    origin: ["http://localhost:3000", "https://inventory-app-theta-eight.vercel.app/"],
     credentials: true,
   })
 );
